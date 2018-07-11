@@ -106,8 +106,8 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resource  = "Resources.bundle"
-  #s.resources = "TTFramework/images/close.png"
+  #s.resource  = "Resources.bundle"
+  s.resources = "Resources.bundle/*"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
